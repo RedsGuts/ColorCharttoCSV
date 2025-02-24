@@ -38,8 +38,8 @@ def write_csv(colors, output_file):
         writer.writerow(["R", "G", "B", "Hex", "Name"])  # CSV headers
         writer.writerows(colors)  # Write color data
 
-input_file = "F:\\Project_Perso\\GitLab\\ColorChart\\ExternalRessources\\tollen.aco"  # Change to your file path
-output_file = "F:\\Project_Perso\\GitLab\\ColorChart\\ExternalRessources\\colors.csv"
+input_file = "MyPath\\tollen.aco"  # Change to your file path
+output_file = "MyPath\\colors.csv"
 
 colors = read_aco(input_file)  # Extract colors
 write_csv(colors, output_file)  # Save to CSV
