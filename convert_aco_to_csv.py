@@ -38,7 +38,7 @@ def write_csv(colors, output_file):
         writer.writerow(["R", "G", "B", "Hex", "Name"])  # CSV headers
         writer.writerows(colors)  # Write color data
 
-input_file = "MyPath\\tollen.aco"  # Change to your file path
+input_file = "MyPath\\ColorChart.aco"  # Change to your file path
 output_file = "MyPath\\colors.csv"
 
 colors = read_aco(input_file)  # Extract colors
