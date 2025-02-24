@@ -73,7 +73,7 @@ def write_csv(colors, input_file):
     print(f"✅ CSV file saved: {output_file}")
 
 # Change this to your .ASE file path
-input_file = "F:\\Project_Perso\\GitLab\\ColorChart\\ExternalRessources\\Tollens_nuancie_TOTEM_façade.ase"
+input_file = "MyPath\\MyColorChart.ase"
 
 colors = read_ase(input_file)  # Extract colors from ASE file
 write_csv(colors, input_file)  # Save to CSV in the same folder as input file
